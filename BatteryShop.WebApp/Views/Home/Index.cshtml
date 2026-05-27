@@ -2,30 +2,61 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="hero-panel">
+    <h1>Power every drive with the right battery.</h1>
+    <p class="lead">Battery Store helps teams and customers quickly discover dependable automotive, inverter, and backup power options in a clean, responsive catalog experience.</p>
+    <div class="hero-actions">
+        @Html.ActionLink("Browse inventory", "ItemList", "Item", null, new { @class = "btn btn-lg btn-hero-primary" })
+        @Html.ActionLink("Talk to our team", "Contact", "Home", null, new { @class = "btn btn-lg btn-hero-secondary" })
+    </div>
+</div>
+
+<div class="row stats-grid">
+    <div class="col-md-4">
+        <div class="stat-card">
+            <strong>Fast</strong>
+            <span>Responsive product browsing with simple filters and paginated results.</span>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="stat-card">
+            <strong>Reliable</strong>
+            <span>Built to surface inventory details clearly for sales, support, and operations.</span>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="stat-card">
+            <strong>Professional</strong>
+            <span>A modern visual refresh that works smoothly across desktop and mobile screens.</span>
+        </div>
+    </div>
+</div>
+
+<div class="section-heading">
+    <h2>Why teams choose Battery Store</h2>
+    <p>Everything important is one click away—from inventory search to product support and business contact details.</p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <div class="feature-card">
+            <h3>Inventory search</h3>
+            <p>Filter by serial number, brand, and page size to quickly find the batteries you need.</p>
+            @Html.ActionLink("Open catalog", "ItemList", "Item", null, new { @class = "btn btn-primary" })
+        </div>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <div class="feature-card">
+            <h3>Business-ready details</h3>
+            <p>Present item IDs, transaction references, and brand data in a clean table designed for quick scanning.</p>
+            @Html.ActionLink("Learn about us", "About", "Home", null, new { @class = "btn btn-default" })
+        </div>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <div class="feature-card">
+            <h3>Responsive by default</h3>
+            <p>Improved spacing, cards, and controls make the interface easier to use on phones, tablets, and desktops.</p>
+            @Html.ActionLink("Contact sales", "Contact", "Home", null, new { @class = "btn btn-default" })
+        </div>
     </div>
 </div>
