@@ -4,6 +4,8 @@ c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\
 c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
 c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll
 c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
-c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\obj\Debug\BatteryShop.DataAccess.csprojResolveAssemblyReference.cache
 c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\obj\Debug\BatteryShop.DataAccess.dll
 c:\users\administrator\documents\visual studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\obj\Debug\BatteryShop.DataAccess.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\obj\Debug\BatteryShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\obj\Debug\BatteryShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\BatteryShop.WebApp\BatteryShop.DataAccess\obj\Debug\BatteryS.FCC5A53B.Up2Date
